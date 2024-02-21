@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <STYLE>
+        .maindiv{
+            border: 2px solid red;
+            width: 500px;
+            height: 450px;
+            padding: 20px ;
+            margin-left: 20px;
+            background-image: url(sky\ pic);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: bottom center;
+            /* opacity: 0.25; */
+            
+            
+            
+        
+        }
+        h1{
+            text-align: center;
+        }
+       <
+        margin-left: 40px;
+        
+       }
+       .submit{
+        margin-top: 100px;
+        margin-left: 250px;
+        margin-right: 5px;
+       }
+       img{
+        filter: opacity(30%);
+       }
+      
+       
+       
+    </STYLE>
+</head>
+<body>
+    <div class="maindiv"> 
+    <div>
+        <H1>APPLICATION FORM</H1>
+        
+    </div>
+    <DIV class="info">
+        
+         name <br><input type="text">
+    </DIV>
+    <DIV class="fathername">
+        FATHER NAME  <br><input type="text">
+    </DIV>
+   <div class="info">
+    EMAIL: <br><input type="text">
+  
+   </div>
+   <div class="info">
+   DATE: <br><input type="date" name="my date" id="">
+   </div>
+   <div>
+     LANGUAGE <br><input type="checkbox" name="LANGUAGE" id="">
+   </div>
+   <div>
+    GENDER: <br> male <input type="checkbox" name="My Gender" id=""> female <input type="checkbox" name="My Gender" id="">
+    
+   </div>
+   write about yourself<textarea name="my text" id="" cols="30" rows="10"></textarea>
+   <div>
+    <input type="checkbox" name="" id="">
+  
+    </div>
+  
+   
+
+
+
+
+</body>
+</html>
